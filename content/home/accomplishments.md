@@ -19,14 +19,14 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
+  organization = "Yandex and Higher school of economics"
   organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
-  url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
+  title = "Finalist in the International Data Analysis Olympiad 2020"
+  url = "https://idao.world/"
+  certificate_url = ""
+  date_start = "2019-01-15"
   date_end = ""
-  description = ""
+  description = "IDAO is an international competition of machine learning for students from all over the world with more than 2700 participants from 83 countries. One off-line phase and one on-site phase in Russia in 2021. "
 
 [[item]]
   organization = "edX"
@@ -38,14 +38,5 @@ date_format = "Jan 2006"
   date_end = ""
   description = "Formulated informed blockchain models, hypotheses, and use cases."
   
-[[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
-  url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
-  description = ""
 
 +++
