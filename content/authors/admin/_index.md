@@ -47,7 +47,7 @@ social:
   link: mailto:mehdizouitinegm@gmail.com
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/MehdiZouitine1
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/mehdizouitine/
