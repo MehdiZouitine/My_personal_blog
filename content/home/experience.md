@@ -18,19 +18,13 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Intern in deep learning"
-  company = "Airbus"
+  title = "Apprentice in Multi-agent reinforcement learning"
+  company = "IRT Saint-Exupéry"
   company_url = ""
   location = "Toulouse, France"
-  date_start = "2020-06-02"
-  date_end = "2020-09-19"
-  description = """ Research internship in deep learning to detect anomalies in test flight data.
-  Responsibilities include:
-  
-  * Bibliographie and state of the art
-  * Data cleaning and data preprocessing
-  * Statistics and experimentations of different neural architectures.
-  """
+  date_start = "2020-09-19"
+  date_end = "2021-09-19"
+  description = """ Research apprenticeship in MARL."""
 
 [[experience]]
   title = "Intern in deep learning"
