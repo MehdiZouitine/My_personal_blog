@@ -44,7 +44,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:mehdizouitinegm@gmail.com
+  link: #contact
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/MehdiZouitine1
