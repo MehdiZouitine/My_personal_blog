@@ -28,15 +28,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = "IDAO is an international competition of machine learning for students from all over the world with more than 2700 participants from 83 countries. One off-line phase and one on-site phase in Russia in 2021. "
 
-[[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
-  date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
+
   
 
 +++
