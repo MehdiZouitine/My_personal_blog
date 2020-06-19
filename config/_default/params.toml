@@ -100,7 +100,7 @@ address = {street = "Route de Narbonne", city = "Toulouse", region = "Midi-Pyré
 coordinates = {latitude = "43.561938", longitude = " 1.470052"}
 
 # Directions for visitors to locate you.
-directions = "Everywhere"
+directions = ""
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
