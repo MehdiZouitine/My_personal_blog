@@ -29,7 +29,7 @@ education:
   courses:
   - course: Msc in Applied Matematics
     institution: University Paul Sabatier
-    year: 2016-2019
+    year: 2019-2020
   - course: BSc in Computer Science
     institution: University Paul Sabatier
     year: 2016-2019
