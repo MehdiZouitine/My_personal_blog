@@ -21,7 +21,7 @@ organizations:
 bio: Personal blog about mathematics, machine learning and their applications! 
 
 interests:
-- Artificial Intelligence
+- Artificial Intelligence :)
 - Computer Science
 - Pure Matematics
 
