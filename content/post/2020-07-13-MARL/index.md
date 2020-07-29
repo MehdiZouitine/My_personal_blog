@@ -3,12 +3,12 @@ date: 2020-06-21
 title: Multi-agents Reinforcement Learning
 tags : ["IA","RL","Markov"]
 header:
-  image:
-	placement=3
+  image: "robots.jpg"
   
 ---
 
 # Understand Multi Agent Reinforcement learning (MARL) : An introduction to Grid Wise Control
+
 
 ***
 
