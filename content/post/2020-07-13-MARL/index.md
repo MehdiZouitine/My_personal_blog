@@ -425,3 +425,8 @@ The following diagram summarizes the entire process of optimizing our network.
 
           return {"Actor": action_map, "Critic": value_function}
   ```
+
+image:
+  placement: 1
+  focal_point: "Center"
+  preview_only: false
