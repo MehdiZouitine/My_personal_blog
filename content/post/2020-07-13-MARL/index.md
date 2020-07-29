@@ -9,8 +9,6 @@ header:
 
 # Understand Multi Agent Reinforcement learning (MARL) : An introduction to Grid Wise Control
 
-{{< figure library="true" src="robots.jpg" title="" lightbox="true" >}}
-
 ***
 
 Hi ! In this post I will explain to you one of the most efficient method for multi-agent reinforcement learning. This method is derived from paper :
