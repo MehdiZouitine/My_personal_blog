@@ -27,9 +27,12 @@ interests:
 
 education:
   courses:
-  - course: Msc in Applied Matematics
+- course: Msc 2 in Statistics/AI
+    institution: Toulouse School of Economics
+    year: 2020-2021
+  - course: Msc 1 in Applied Matematics
     institution: University Paul Sabatier
-    year: 2016-2019
+    year: 2019-2020
   - course: BSc in Computer Science
     institution: University Paul Sabatier
     year: 2016-2019
