@@ -8,7 +8,7 @@ header:
   
 ---
 
-# Understand Multi Agent Reinforcement learning (MARL) : An introduction to Grid Wise Control
+#  Multi Agent Reinforcement learning (MARL) : An introduction to Grid Wise Control
 
 ***
 
