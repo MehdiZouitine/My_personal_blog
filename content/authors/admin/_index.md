@@ -27,7 +27,7 @@ interests:
 
 education:
   courses:
-- course: Msc 2 in Statistics/AI
+  - course: Msc 2 in Statistics/AI
     institution: Toulouse School of Economics
     year: 2020-2021
   - course: Msc 1 in Applied Matematics
