@@ -3,7 +3,8 @@ date: 2020-06-21
 title: Multi-agents Reinforcement Learning
 tags : ["IA","RL","Markov"]
 header:
-  image: "robots.jpg"
+  image:
+	placement=3
   
 ---
 
