@@ -73,9 +73,11 @@ user_groups:
 - Visitors
 ---
 
-Hey, everybody! My name's **Mehdi Zouitine :boy:** ! I'm a 2nd year student of applied mathematics!    
+Hey, everybody! My name's **Mehdi Zouitine :boy:** ! I'm a 2nd year master student of applied mathematics!    
 I'm interested in subjects around **mathematics :chart_with_upwards_trend:** and **computer science :computer:** , from theoretical mathematics to programming!  
 My **university background :school:** is a mix of mathematics (theoretical and applied) and computer science.  
 
 
 Outside of class I love sports, spending time with my friends and of course science! I'm also a big fan of combat sports :soccer: ! 
+
+
