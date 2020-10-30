@@ -25,7 +25,15 @@ date_format = "Jan 2006"
   location = "Toulouse, France"
   date_start = "2020-09-19"
   date_end = "2021-10-19"
-  description = """ Research apprenticeship in MARL."""
+  description = """ Research apprenticeship in MARL.
+  Responsibilities include:
+  
+  Research in Multi-agent Deep reinforcement learning
+  * Bibliography and state of the art
+  * Implementation of reinforcement learning algorithm : PPO, A2C
+  * High Performance computing
+  * Implementation of gym multi-agent environnements
+  """
 
 [[experience]]
   title = "Inter in Deep learning for flight test data"
@@ -37,9 +45,9 @@ date_format = "Jan 2006"
   description = """ Research internship in deep learning to detect anomalies in test flight data.
   Responsibilities include:
   
-  * Bibliographie and state of the art
-  * Data cleaning and data preprocessing
-  * Statistics and experimentations of different neural network architectures.
-  * Study of Siamese network
+  * Deep learning on flight test data
+  * Sensor value prediction using MLP and LSTM
+  * Study the efficiency of Siamese networks for the detection of anomalies in time series
+  * Communication and presentation of results to industry experts
   """
 +++
