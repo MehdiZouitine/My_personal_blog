@@ -409,7 +409,7 @@ Here is an example of Gridnet implementation.  This implementation is only a tri
   ```
 
 * **Architecture** :
-  {{< figure library="true" src="archi.svg" title="Grid-net architecture" lightbox="true" >}}
+
   ```python
   class GridNet(nn.Module):
       def __init__(self, c_s, c_encodded, w_encodded, h_encodded, c_a):
@@ -429,4 +429,5 @@ Here is an example of Gridnet implementation.  This implementation is only a tri
 
           return {"Actor": action_map, "Critic": value_function}
   ```
-  {{< figure library="true" src="pres.gif" title="Grid-net architecture" lightbox="true" >}}
+
+## Result 
