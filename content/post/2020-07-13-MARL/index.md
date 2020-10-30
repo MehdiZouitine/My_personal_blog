@@ -82,9 +82,9 @@ We will present this architecture layer by layer in a rather static way. Then we
 ### Notation
 
 * State grid : $s \in \mathbb{R}^{w \times h \times c_{s}}$.
-* State channels : $c_{s} \in \mathbb{N}^{\*}  $.
+* State channels : $c_{s} \in \mathbb{N}^{*}  $.
 * Action map : $a \in \mathbb{R}^{w \times h \times c_{a}}$.
-* Action map channels : $c_{a} \in \mathbb{N}^{\*} $.
+* Action map channels : $c_{a} \in \mathbb{N}^{*} $.
 * Joint action space : $U=U_{1} \times U_{2} \times \cdots \times U_{n_{t}}$ with ${{1,2, \cdots, n_{t}}}$ is the set of agents.
 * Possible joint action : $u \in U$.
 * Possible action for agent $i$ : $u_{i} \in U_{i}$.
