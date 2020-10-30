@@ -7,10 +7,8 @@ header:
   image: "spectre.jpg"
 
 ---
+The idea of this series of articles (Why I should) is to explain the commonplace in machine learning.
 
-Here is a small post that presents some books, pdf's and articles that have helped me in my quest for knowledge.
+Simply explain common tricks with mathematical arguments.
 
-## Ressource for Mathematics
----
-
-
+Let's dive into the **spectral norm** ! 
