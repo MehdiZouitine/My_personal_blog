@@ -164,6 +164,33 @@ From now on, our architecture is well defined ! The question that comes from now
 
 ### A few obvious facts
 
+\usepackage{algorithm,algpseudocode}% http://ctan.org/pkg/{algorithms,algorithmicx}
+\usepackage{amsfonts}
+\begin{document}
+
+\begin{algorithm}[ht]
+  \caption{A2C algorithm}\label{alg:algorithm1}
+  \begin{algorithmic}[1]
+    \Require Initialize Actor-Critic network $G$ with parameter $\theta$.
+    
+    \For{each episode}
+      \State Get initial state $s$
+      \State Initialize a storage buffer $S,A,R,V,S'$
+      \For{$i = 1,2,3..,N$}
+        \State Sample an action $a \sim G(s)_{\pi}$ and get the associeted value $v \leftarrow G(s)_{v}$
+        \State Run the action $a$ through the environment, obtain the reward and next state $r, s^{\prime} \leftarrow E N V(s, a)$
+        \State Collect and store $S,A,R,V,S'$ $\leftarrow s,a,r,v,s'$
+        \State $s \leftarrow s'$
+    \EndFor 
+    \State Compute the discounted returns $\hat{V}=\sum_{l=0}^{N-1} \gamma^{l} r_{t+l}$
+    \State Compute an advantage function $\psi(V,R,S')$
+    \State Optimize $\theta$ to minimize  $-\log (G(A \mid S)_\pi) \psi(V,R,S') + \lambda \|V-\hat{V}\|$
+    \State Empty $S,A,R,V,S'$
+      
+      
+    
+  \end{algorithmic}
+\end{algorithm}
 Let's summarize what we just said with this little diagram !
 
 
