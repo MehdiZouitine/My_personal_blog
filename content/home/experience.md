@@ -17,17 +17,18 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
-#[[experience]]
-  #title = "Apprentice in Multi-agent reinforcement learning"
-  #company = "IRT Saint-Exupéry"
-  #company_url = ""
-  #location = "Toulouse, France"
-  #date_start = "2020-09-19"
-  #date_end = "2021-09-19"
-  #description = """ Research apprenticeship in MARL."""
 
 [[experience]]
-  title = "Intern in deep learning"
+  title = "Apprentice in Multi-agent Deep Reinforcement Learning"
+  company = "IRT Saint-Exupéry"
+  company_url = ""
+  location = "Toulouse, France"
+  date_start = "2020-09-19"
+  date_end = "2021-10-19"
+  description = """ Research apprenticeship in MARL."""
+
+[[experience]]
+  title = "Inter in Deep learning for flight test data"
   company = "Airbus"
   company_url = ""
   location = "Toulouse, France"
@@ -39,5 +40,6 @@ date_format = "Jan 2006"
   * Bibliographie and state of the art
   * Data cleaning and data preprocessing
   * Statistics and experimentations of different neural network architectures.
+  * Study of Siamese network
   """
 +++

@@ -1,6 +1,6 @@
 ---
 date: 2020-10-30
-title: "Why I should : Divide by spectral norm"
+title: "Why I should 1 : Divide by spectral norm"
 tags : ["AI","Deep Learning","Analysis","Why I should"]
 
 header:
