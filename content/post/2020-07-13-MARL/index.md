@@ -252,6 +252,8 @@ The following diagram summarizes the entire process of optimizing our network.
 
 ### Actor-Critic architecture implementation in pytorch
 
+Here is an example of Gridnet implementation.  This implementation is only a trivial and probably incorrect example. This example is just here to give an idea of the implementation.
+
 * **Encoder** :
   {{< figure library="true" src="encoder.svg" title="Encoder" lightbox="true" >}}
   ```python
@@ -427,3 +429,4 @@ The following diagram summarizes the entire process of optimizing our network.
 
           return {"Actor": action_map, "Critic": value_function}
   ```
+  {{< figure library="true" src="pres.gif" title="Grid-net architecture" lightbox="true" >}}
