@@ -166,7 +166,7 @@ From now on, our architecture is well defined ! The question that comes from now
 
 
 Let's summarize what we just said with this little diagram !
-{{< figure library="true" src="algo.pdf" title="Grid-wise control diagram" lightbox="true" >}}
+{{< figure library="true" src="algo_1.svg" title="Grid-wise control diagram" lightbox="true" >}}
 
 
 
