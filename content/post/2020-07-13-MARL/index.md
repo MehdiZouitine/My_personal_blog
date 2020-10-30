@@ -166,7 +166,6 @@ From now on, our architecture is well defined ! The question that comes from now
 
 
 Let's summarize what we just said with this little diagram !
-{{< figure library="true" src="algo_1.svg" title="Grid-wise control diagram" lightbox="true" >}}
 
 
 
@@ -245,6 +244,9 @@ In the previous section we have seen how to optimize an actor-critic algorithm.
 The following diagram summarizes the entire process of optimizing our network.
 
   {{< figure library="true" src="actor_critic.svg" title="optimization by actor-critic policy gradient" lightbox="true" >}}
+
+### Pseudo-code
+{{< figure library="true" src="algo.svg" title="Actor-critic advantage algorithm" lightbox="true" >}}
 
 
 
