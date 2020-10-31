@@ -17,7 +17,7 @@ Let's dive into the **spectral norm** !
 
 ### The interest of the spectral norm
 
-The spectral norm is used in several areas such as image generation with **GANs** or in the field of **Robustness**.
+If you work on GAN or robustness, you probably deal with **spectral norm**.
 
 * In GANs, the spectral norm is used on the discriminator and/or on the generator as in papers : [*Spectral Normalization for Generative Adversarial Networks*](https://arxiv.org/pdf/1802.05957.pdf) and [*Semantic Image Synthesis with Spatially-Adaptive Normalization*](https://arxiv.org/pdf/1903.07291.pdf). 
 
@@ -51,7 +51,7 @@ A solution to make its Lipschitz network is to use the spectral norm.
 
 As I said, the mathematical object that will make a network Lipschitz continuous is the spectral norm.
 
-Let $W \in M_{m,n}(\mathbb{R})$, the spectral norm of $W$ is defined as $$\Vert W\Vert :=\Vert W\Vert _{2,2} = 
+Let $W \in M_{m,n}(\mathbb{R})$, the spectral norm of $W$ is defined as $$\sigma(W) = 
 \sup _{\Vert x\Vert _{2} \leq 1}\Vert W x\Vert _{2} =
 \sup _{x \neq 0} \frac{\Vert W x\Vert _{2}}{\Vert x\Vert _{2}}$$
 
