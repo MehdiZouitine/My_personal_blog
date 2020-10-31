@@ -37,6 +37,7 @@ $$ \exists K > 0 \ |\  \forall x,y \in E, \ d_{F}\left(l\left(x\right), l\left(y
 In practice $d_E$ and $d_F$ are norms and $l \in \mathcal{L}(E ; F)$ is a linear application. 
 
 As $l$ is linear the Lipschitz condition can be rewritten as :
+
 $\Vert Wx \Vert_{\mathrm{F}} \leqslant K \Vert x \Vert_{\mathrm{E}}$
 with $W$ the associated matrix of $l$.
 
