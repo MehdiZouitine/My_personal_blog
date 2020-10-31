@@ -48,7 +48,8 @@ How to interpret this property :
  
 Comment interpréter cette propriété :
  
-On peut voir la norm d'un vecteur comme son energie $E$
+On peut voir la norm d'un vecteur comme son energie $\mathcal{E}$
 On peut donc réecrire la condition de  Lipschitz comme : 
 
-$$ \exists K > 0 \ | \ \forall x \in E, \  E(Wx) \leqslant K E(x) $$
+$$ \exists K > 0 \ | \ \forall x \in E, \  \mathcal{E}(Wx) \leqslant K \mathcal{E}(x) $$
+
