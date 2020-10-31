@@ -56,5 +56,8 @@ Let $W \in M_{m,n}(\mathbb{R})$, the spectral norm of $W$ is defined as $$\sigma
 \sup _{x \neq 0} \frac{\Vert W x\Vert _{2}}{\Vert x\Vert _{2}}$$
 
 
+$$
+\frac{\left\|\frac{W}{\sigma(w)} x\right\|}{\|x\|}=\frac{\|w x\|}{\sigma(w)\|x\|}=
+$$
 
 
