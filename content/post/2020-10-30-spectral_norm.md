@@ -62,8 +62,8 @@ $$
 
 $$
 \begin{aligned}
-\mathcal{L}^{-1}\left\{f(d)\right\} &= \mathcal{L}^{-1}\left\{f_1(\delta).f_2(\delta)\right\} \\\\
-& = \exp(mt) \star \left\{\frac{l}{2\sqrt{\pi t^3}} \exp(-l^2/{4t})\right\} \\\\
-& = F_1 * F_2
+  2x+3 &= 7 & 2x+3-3 &= 7-3 \\\\\\
+  2x &= 4 & \frac{2x}2 &= \frac{4}{2}\\\\\\
+  x &= 2
 \end{aligned}
 $$
