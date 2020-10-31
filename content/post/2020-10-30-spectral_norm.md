@@ -57,7 +57,10 @@ Let $W \in M_{m,n}(\mathbb{R})$, the spectral norm of $W$ is defined as $$\sigma
 
 
 $$
-\frac{\left\Vert \frac{W}{\sigma(W)} x\right\Vert}{\Vert x \Vert}=\frac{\Vert Wx \Vert}{\sigma(W)\Vert x \Vert}=
+\begin{aligned}
+\frac{\left\Vert \frac{W}{\sigma(W)} x\right\Vert}{\Vert x \Vert}= & \frac{\Vert Wx \Vert}{\sigma(W)\Vert x \Vert} \\\\
+= \frac{\left \Vert Wx\right \Vert}{ \Vertx \Vert} \frac{ \Vert z \Vert}{\left \Vert Wz\right \Vert} = & \frac{\frac{ \Vert Wx \Vert}{ \Vert x \Vert}}{\frac{ \Vert Wz \Vert}{ \Vert z \Vert}}
+\end{aligned}
 $$
 
 $$
