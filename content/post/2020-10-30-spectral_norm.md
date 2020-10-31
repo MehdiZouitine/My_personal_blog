@@ -57,7 +57,7 @@ Let $W \in M_{m,n}(\mathbb{R})$, the spectral norm of $W$ is defined as $$\sigma
 
 
 $$
-\frac{\left\|\frac{W}{\sigma(w)} x\right\|}{\|x\|}=\frac{\|w x\|}{\sigma(w)\|x\|}=
+\frac{\left\Vert \frac{W}{\sigma(W)} x\right\Vert}{\Vert x \Vert}=\frac{\Vert Wx \Vert}{\sigma(W)\Vert x \Vert}=
 $$
 
 $$
