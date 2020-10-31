@@ -69,8 +69,9 @@ $$
 \forall x \neq 0,\ \frac{\left\Vert \frac{W}{\sigma(W)} x\right\Vert}{\Vert x \Vert}
 = \frac{\Vert Wx \Vert}{\sigma(W)\Vert x \Vert}
 = \frac{\left \Vert Wx\right \Vert}{ \Vert x \Vert} \frac{ \Vert z \Vert}{\left \Vert Wz\right \Vert}
-= \frac{\frac{ \Vert Wx \Vert}{ \Vert x \Vert}}{\frac{ \Vert Wz \Vert}{ \Vert z \Vert}}
+= \frac{\frac{ \Vert Wx \Vert}{ \Vert x \Vert}}{\frac{ \Vert Wz \Vert}{ \Vert z \Vert}} \\\\
+with $z= \underset{y \neq 0}{\arg \max } \frac{\Vert Wy \Vert}{\Vert y \Vert}$
 $$
 
-with $z= \underset{y \neq 0}{\arg \max } \frac{\Vert Wy \Vert}{\Vert y \Vert}$
+
 
