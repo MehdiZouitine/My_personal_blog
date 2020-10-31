@@ -55,7 +55,7 @@ Let $W \in M_{m,n}(\mathbb{R})$, the spectral norm of $W$ is defined as $$\sigma
 \sup _{\Vert x\Vert _{2} \leq 1}\Vert W x\Vert _{2} =
 \sup _{x \neq 0} \frac{\Vert W x\Vert _{2}}{\Vert x\Vert _{2}}$$
 
-To transform a linear application into a lipschitz continuous application, simply divide the matrix of the application by the spectral norm of this matrix : 
+To transform a linear application into a lipschitz continuous application, simply divide the matrix W of the application by the spectral norm of this matrix : 
 
 $$ W \leftarrow \frac{W}{\sigma(W)}$$
 
