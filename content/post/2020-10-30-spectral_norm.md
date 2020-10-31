@@ -25,11 +25,13 @@ The spectral norm is used in several areas such as image generation with **GANs*
 
 In both cases, the network weight matrix is **divided by its spectral norm**.The goal of this operation is to make lipschitz continuous the network. And more precisely to make lipschitz continuous the linear application associated with the weight matrix of the network.
 
-### Lipschitz continuous linear application
+### Lipschitz continuous application
 
 In this sub-section we will only talk about **linear** lipschitzian applications.
 We are only interested in this class of function because it is the spectral norm of the weight **matrix** that interests us.
 
-Let $(E,d_E)$ and $(F,d_F)$ two metric spaces and $l: E \rightarrow F$  an application from $E$ to $F$,
+If $(E,d_E)$ and $(F,d_F)$ are two metric spaces and $l: E \rightarrow F$  an application from $E$ to $F$,
 $l$ is called **lipschtitz continuous** if : 
 $$ \exists K > 0 \ |\  \forall x,y \in E, \ d_{F}\left(l\left(x\right), l\left(y\right)\right) \leq K d_{E}\left(x, y\right)$$
+
+In practice $d_E$ and $d_F$ are standardized spaces and $l \in \mathcal{L}(E ; F)$ is a linear application. 
