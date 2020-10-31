@@ -56,18 +56,18 @@ Let $W \in M_{m,n}(\mathbb{R})$, the spectral norm of $W$ is defined as $$\sigma
 \sup _{x \neq 0} \frac{\Vert W x\Vert _{2}}{\Vert x\Vert _{2}}$$
 
 
-$$
+<!-- $$
 \begin{aligned}
 \frac{\left\Vert \frac{W}{\sigma(W)} x\right\Vert}{\Vert x \Vert} \\\\
 = &\frac{\Vert Wx \Vert}{\sigma(W)\Vert x \Vert} \\\\
 = &\frac{\left \Vert Wx\right \Vert}{ \Vert x \Vert} \frac{ \Vert z \Vert}{\left \Vert Wz\right \Vert} \\\\
 = &\frac{\frac{ \Vert Wx \Vert}{ \Vert x \Vert}}{\frac{ \Vert Wz \Vert}{ \Vert z \Vert}} 
 \end{aligned}
-$$
+$$ -->
 
 $$
-\begin{aligned}
-3+2 \\\\
-3+2 
-\end{aligned}
+\frac{\left\Vert \frac{W}{\sigma(W)} x\right\Vert}{\Vert x \Vert}
+= \frac{\Vert Wx \Vert}{\sigma(W)\Vert x \Vert}
+= \frac{\left \Vert Wx\right \Vert}{ \Vert x \Vert} \frac{ \Vert z \Vert}{\left \Vert Wz\right \Vert}
+= \frac{\frac{ \Vert Wx \Vert}{ \Vert x \Vert}}{\frac{ \Vert Wz \Vert}{ \Vert z \Vert}}
 $$
