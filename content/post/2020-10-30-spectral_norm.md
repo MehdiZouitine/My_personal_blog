@@ -44,11 +44,11 @@ with $W$ the associated matrix of the linear application $l$.
 This equivalence is **only** true for **linear** applications.
 It is natural to be interested only in the linear application. In fact it is only the weight matrices of the models that interest us here.
 
-> *How to interpret this property :*
+> *How to interpret this property :We can see the norm of a vector as its energy $\mathcal{E}$.We can therefore rewrite Lipschitz's condition as :$$ \exists K > 0 \ | \ \forall x \in E, \  \mathcal{E}(Wx) \leqslant K \mathcal{E}(x) $$*
 
-*We can see the norm of a vector as its energy $\mathcal{E}$.*
-*We can therefore rewrite Lipschitz's condition as :*
 
-*$$ \exists K > 0 \ | \ \forall x \in E, \  \mathcal{E}(Wx) \leqslant K \mathcal{E}(x) $$*
+
+
+
 
  \propto
