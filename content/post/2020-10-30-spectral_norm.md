@@ -72,4 +72,5 @@ $$
 = \frac{\frac{ \Vert Wx \Vert}{ \Vert x \Vert}}{\frac{ \Vert Wz \Vert}{ \Vert z \Vert}}
 $$
 
-with $z= argmax_{y \neq 0} \frac{\Vert Wy \Vert}{\Vert y \Vert}$
+with $z= \underset{y \neq 0}{\arg \max } \frac{\Vert Wy \Vert}{\Vert y \Vert}$
+
