@@ -58,17 +58,20 @@ Let $W \in M_{m,n}(\mathbb{R})$, the spectral norm of $W$ is defined as $$\sigma
 To transform a linear application into a lipschitz continuous application, simply divide the matrix W of the application by the spectral norm of this matrix : 
 
 $$ W \leftarrow \frac{W}{\sigma(W)}$$
-
-$$
+#### *Proof that  $\frac{W}{\sigma(W)}$ is Lipschitz continuous*
+>$$
 \begin{aligned}
 &\forall x \neq 0,\ \frac{\left\Vert \frac{W}{\sigma(W)} x\right\Vert}{\Vert x \Vert}
 = \frac{\Vert Wx \Vert}{\sigma(W)\Vert x \Vert}
 = \frac{\left \Vert Wx\right \Vert}{ \Vert x \Vert} \frac{ \Vert z \Vert}{\left \Vert Wz\right \Vert}
 = \frac{\frac{ \Vert Wx \Vert}{ \Vert x \Vert}}{\frac{ \Vert Wz \Vert}{ \Vert z \Vert}} \leq 1 \\\\
-&because \ \frac{\left \Vert W_{z}\right \Vert }{ \Vert z \Vert }=\sup _{x \neq 0} \frac{ \Vert W x \Vert }{ \Vert x \Vert }
-\ and \ z= \underset{y \neq 0}{\arg \max } \frac{\Vert Wy \Vert}{\Vert y \Vert}
+&with \ \frac{\left \Vert W_{z}\right \Vert }{ \Vert z \Vert }=\sup _{x \neq 0} \frac{ \Vert W x \Vert }{ \Vert x \Vert } \\\\
+&\ and \ z= \underset{y \neq 0}{\arg \max } \frac{\Vert Wy \Vert}{\Vert y \Vert} \\\\
+& \frac{\frac{ \Vert Wx \Vert}{ \Vert x \Vert}}{\frac{ \Vert Wz \Vert}{ \Vert z \Vert}} \leq 1 \Longleftrightarrow
+ \frac{\Vert Wx \Vert}{\frac{ \Vert Wz \Vert}{ \Vert z \Vert}} \leq \Vert x \Vert \Longleftrightarrow
+\Vert \frac{W}{\sigma(W)} x \Vert \leq \Vert x \Vert
 \end{aligned}
 $$
-
+By definition it's mean $\frac{W}{\sigma(W)}$ is 1-Lipschitz continuous. ∎
 
 
