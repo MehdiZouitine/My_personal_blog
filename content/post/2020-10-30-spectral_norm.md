@@ -46,10 +46,11 @@ It is natural to be interested only in the linear application. In fact it is onl
 
 How to interpret this property :
  
-Comment interpréter cette propriété :
+How to interpret this property :
  
-On peut voir la norm d'un vecteur comme son energie $\mathcal{E}$
-On peut donc réecrire la condition de  Lipschitz comme : 
+We can see the norm of a vector as its energy $\mathcal{E}$.
+We can therefore rewrite Lipschitz's condition as : 
 
 $$ \exists K > 0 \ | \ \forall x \in E, \  \mathcal{E}(Wx) \leqslant K \mathcal{E}(x) $$
 
+ \propto
