@@ -72,8 +72,9 @@ $$
 = \frac{\left \Vert Wx\right \Vert}{ \Vert x \Vert} \frac{ \Vert z \Vert}{\left \Vert Wz\right \Vert}
 = \frac{\frac{ \Vert Wx \Vert}{ \Vert x \Vert}}{\frac{ \Vert Wz \Vert}{ \Vert z \Vert}} \leq 1 \\\\
 &because \ \frac{\left \Vert W_{z}\right \Vert }{ \Vert z \Vert }=\sup _{x \neq 0} \frac{ \Vert W x \Vert }{ \Vert x \Vert }
+\ and \ z= \underset{y \neq 0}{\arg \max } \frac{\Vert Wy \Vert}{\Vert y \Vert}
 \end{aligned}
 $$
 
-with $z= \underset{y \neq 0}{\arg \max } \frac{\Vert Wy \Vert}{\Vert y \Vert}$
+
 
