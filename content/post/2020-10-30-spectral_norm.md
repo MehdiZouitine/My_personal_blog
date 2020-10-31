@@ -38,8 +38,17 @@ In practice $d_E$ and $d_F$ are norms and $l \in \mathcal{L}(E ; F)$ is a linear
 
 As $l$ is linear the Lipschitz condition can be rewritten as :
 
-$$ \exists K > 0 \ | \forall x \in E \Vert Wx \Vert_{\mathrm{F}} \leqslant K \Vert x \Vert_{\mathrm{E}}$$
-with $W$ the associated matrix of $l$.
+$$ \exists K > 0 \ | \ \forall x \in E, \ \Vert Wx \Vert_{\mathrm{F}} \leqslant K \Vert x \Vert_{\mathrm{E}}$$
+with $W$ the associated matrix of the linear application $l$.
 
 This equivalence is **only** true for **linear** applications.
 It is natural to be interested only in the linear application. In fact it is only the weight matrices of the models that interest us here.
+
+How to interpret this property :
+ 
+Comment interpréter cette propriété :
+ 
+On peut voir la norm d'un vecteur comme son energie $E$
+On peut donc réecrire la condition de  Lipschitz comme : 
+
+$$ \exists K > 0 \ | \ \forall x \in E, \  E(Wx) \leqslant K E(x) $$
