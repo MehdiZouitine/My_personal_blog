@@ -44,12 +44,10 @@ with $W$ the associated matrix of the linear application $l$.
 This equivalence is **only** true for **linear** applications.
 It is natural to be interested only in the linear application. In fact it is only the weight matrices of the models that interest us here.
 
-> *How to interpret this property ? : we can see the norm of a vector as its energy $\mathcal{E}$. We can therefore rewrite Lipschitz's condition as :$$ \exists K > 0 \ | \ \forall x \in E, \  \frac{\mathcal{E}(Wx)}{\mathcal{E}(x)} \leqslant K  $$ In a se
+> How to interpret this property ? : we can see the norm of a vector as its energy $\mathcal{E}$. We can therefore rewrite Lipschitz's condition as :$$ \exists K > 0 \ | \ \forall x \in E, \  \frac{\mathcal{E}(Wx)}{\mathcal{E}(x)} \leqslant K  $$ In a sense the energy ratio between input x and output Wx is bounded, this property ensures that the energy Wx does not explode. This makes our W application more stable, more robust.
 
 
 
 
 
 
-
- \propto
