@@ -34,4 +34,9 @@ If $(E,d_E)$ and $(F,d_F)$ are two metric spaces and $l: E \rightarrow F$  an ap
 $l$ is called **lipschtitz continuous** if : 
 $$ \exists K > 0 \ |\  \forall x,y \in E, \ d_{F}\left(l\left(x\right), l\left(y\right)\right) \leq K d_{E}\left(x, y\right)$$
 
-In practice $d_E$ and $d_F$ are standardized spaces and $l \in \mathcal{L}(E ; F)$ is a linear application. 
+In practice $d_E$ and $d_F$ are norms and $l \in \mathcal{L}(E ; F)$ is a linear application. 
+
+As $l$ is linear the Lipschitz condition can be rewritten as :
+
+$\|Wx\|_{\mathrm{F}} \leqslant K\|x\|_{\mathrm{E}}$
+
