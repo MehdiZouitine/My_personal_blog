@@ -60,8 +60,8 @@ $$
 \frac{\left\|\frac{W}{\sigma(w)} x\right\|}{\|x\|}=\frac{\|w x\|}{\sigma(w)\|x\|}=
 $$
 
-\begin{align}
+[\begin{aligned}
 \mathcal{L}^{-1}\left\{f(d)\right\} &= \mathcal{L}^{-1}\left\{f_1(\delta).f_2(\delta)\right\} \\
 & = \exp(mt) \star \left\{\frac{l}{2\sqrt{\pi t^3}} \exp(-l^2/{4t})\right\} \\
 & = F_1 * F_2
-\end{align}
+\end{aligned}\]
