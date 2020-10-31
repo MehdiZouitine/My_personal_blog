@@ -66,11 +66,13 @@ Let $W \in M_{m,n}(\mathbb{R})$, the spectral norm of $W$ is defined as $$\sigma
 $$ -->
 
 $$
+\begin{aligned}
 \forall x \neq 0,\ \frac{\left\Vert \frac{W}{\sigma(W)} x\right\Vert}{\Vert x \Vert}
 = \frac{\Vert Wx \Vert}{\sigma(W)\Vert x \Vert}
 = \frac{\left \Vert Wx\right \Vert}{ \Vert x \Vert} \frac{ \Vert z \Vert}{\left \Vert Wz\right \Vert}
 = \frac{\frac{ \Vert Wx \Vert}{ \Vert x \Vert}}{\frac{ \Vert Wz \Vert}{ \Vert z \Vert}} \leq 1 \\\\
-because \frac{\left\|W_{z}\right\|}{\|z\|}=\sup _{x \neq 0} \frac{\|W x\|}{\|x\|}
+because \ \frac{\left\|W_{z}\right\|}{\|z\|}=\sup _{x \neq 0} \frac{\|W x\|}{\|x\|}
+\end{aligned}
 $$
 
 with $z= \underset{y \neq 0}{\arg \max } \frac{\Vert Wy \Vert}{\Vert y \Vert}$
