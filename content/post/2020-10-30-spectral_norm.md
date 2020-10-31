@@ -57,7 +57,7 @@ Let $W \in M_{m,n}(\mathbb{R})$, the spectral norm of $W$ is defined as $$\sigma
 
 To transform a linear application into a lipschitz continuous application, simply divide the matrix of the application by the spectral norm of this matrix : 
 
-$$ W \leftarrow \frac{\left\Vert \frac{W}{\sigma(W)}$$
+$$ W \leftarrow \frac{W}{\sigma(W)}$$
 
 $$
 \begin{aligned}
