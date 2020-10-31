@@ -23,6 +23,7 @@ The spectral standard is used in several areas such as image generation with **G
 
 * In robustness, it is also used throughout the network to make it robust.
 
-In both cases, the network weight matrix is **divided by its spectral norm**.
+In both cases, the network weight matrix is **divided by its spectral norm**.The goal of this operation is to make lipschitz continuous the network. And more precisely to make lipschitz continuous the linear application associated with the weight matrix of the network.
 
-The goal of this operation is to make the lipschitz network. And more precisely to make lipschitz the linear application associated with the weight matrix of the network.
+### Lipschitz continuous application
+
