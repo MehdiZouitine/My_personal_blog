@@ -38,7 +38,7 @@ In practice $d_E$ and $d_F$ are norms and $l \in \mathcal{L}(E ; F)$ is a linear
 
 As $l$ is linear the Lipschitz condition can be rewritten as :
 
-$$\Vert Wx \Vert_{\mathrm{F}} \leqslant K \Vert x \Vert_{\mathrm{E}}$$
+$$ \exists K > 0 \ | \forall x \in E \Vert Wx \Vert_{\mathrm{F}} \leqslant K \Vert x \Vert_{\mathrm{E}}$$
 with $W$ the associated matrix of $l$.
 
 This equivalence is **only** true for **linear** applications.
