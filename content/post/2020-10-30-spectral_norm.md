@@ -23,12 +23,9 @@ The spectral norm is used in several areas such as image generation with **GANs*
 
 * In robustness, it is also used throughout the network to make it robust.
 
-In both cases, the network weight matrix is **divided by its spectral norm**.The goal of this operation is to make lipschitz continuous the network. And more precisely to make lipschitz continuous the linear application associated with the weight matrix of the network.
+In both cases, the network weight matrices are **divided by their spectral norm**.The goal of this operation is to make lipschitz continuous the network.
 
 ### Lipschitz continuous application
-
-In this sub-section we will only talk about **linear** lipschitzian applications.
-We are only interested in this class of function because it is the spectral norm of the weight **matrix** that interests us.
 
 If $(E,d_E)$ and $(F,d_F)$ are two metric spaces and $l: E \rightarrow F$  an application from $E$ to $F$,
 $l$ is called **lipschtitz continuous** if : 
@@ -46,7 +43,17 @@ It is natural to be interested only in the linear application. In fact it is onl
 
 > How to interpret this property ? : we can see the norm of a vector as its energy $\mathcal{E}$. We can therefore rewrite Lipschitz's condition as :$$ \exists K > 0 \ | \ \forall x \in E, \  \frac{\mathcal{E}(Wx)}{\mathcal{E}(x)} \leqslant K  $$ In a sense **the energy ratio between input $x$ and output $Wx$ is bounded**, this property ensures that the energy $Wx$ **does not explode**. This makes our $W$ application more stable, more robust.
 
+It is this property that is sought in GANs or to make its network robust.
 
+A solution to make its Lipschitz network is to use the spectral norm.
+
+### Spectral norm
+
+As I said, the mathematical object that will make a network Lipschitz continuous is the spectral norm.
+
+Let $W \in M_{m,n}(\mathbb{R})$, the spectral norm of $W$ is defined as $$\Vert W\Vert :=\Vert W\Vert _{2,2} = 
+\sup _{\Vert x\Vert _{2} \leq 1}\Vert W x\Vert _{2} =
+\sup _{x \neq 0} \frac{\Vert W x\Vert _{2}}{\Vert x\Vert _{2}}$$
 
 
 
