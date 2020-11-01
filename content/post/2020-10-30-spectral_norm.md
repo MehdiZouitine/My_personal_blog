@@ -65,7 +65,7 @@ $$ W \leftarrow \frac{W}{\sigma(W)}$$
 = \frac{\Vert Wx \Vert}{\sigma(W)\Vert x \Vert}
 = \frac{\left \Vert Wx\right \Vert}{ \Vert x \Vert} \frac{ \Vert z \Vert}{\left \Vert Wz\right \Vert}
 = \frac{\frac{ \Vert Wx \Vert}{ \Vert x \Vert}}{\frac{ \Vert Wz \Vert}{ \Vert z \Vert}} \leq 1 \\\\
-&with \ \frac{\left \Vert W_{z}\right \Vert }{ \Vert z \Vert }=\sup _{x \neq 0} \frac{ \Vert W x \Vert }{ \Vert x \Vert } \\\\
+&with \ \frac{\left \Vert Wz\right \Vert }{ \Vert z \Vert }=\sup _{x \neq 0} \frac{ \Vert W x \Vert }{ \Vert x \Vert } \\\\
 &\ and \ z= \underset{y \neq 0}{\arg \max } \frac{\Vert Wy \Vert}{\Vert y \Vert} \\\\
 & \frac{\frac{ \Vert Wx \Vert}{ \Vert x \Vert}}{\frac{ \Vert Wz \Vert}{ \Vert z \Vert}} \leq 1 \Longleftrightarrow
  \frac{\Vert Wx \Vert}{\frac{ \Vert Wz \Vert}{ \Vert z \Vert}} \leq \Vert x \Vert \Longleftrightarrow
@@ -75,3 +75,12 @@ $$
 By definition it's mean $\frac{W}{\sigma(W)}$ is 1-Lipschitz continuous. ∎
 
 
+### Apply spectral norm to a neural network
+```python
+import torch.nn as nn
+m = nn.utils.spectral_norm(nn.Linear(20, 40))
+```
+
+
+Let $ f_1: E_1 \rightarrow E_2, \ f_2: E_2 \rightarrow E_3, \ldots , f_N :E_N \rightarrow E_{N+1} $  be all Lipschitz applications. $$\forall i \in \\{1,2,\ldots,N\\}, \ \exists K_i > 0 \ | \ \forall x,y \in E_i, \ \Vert f_i(x)-f_i(y) \Vert_{E_{i+1}} \leq K_i \Vert x_i-y_i \Vert_{E_i}$$
+$$ F=\bigotimes_{i=1}^{N} f_{i}=f_{1} \circ f_{2} \circ \cdots \circ f_{N}$$ therefore $F$ is $K$-lipschitz with $K = \prod_{n=1}^{N} K_i$
