@@ -1,6 +1,6 @@
 ---
 date: 2020-10-30
-title: "Why I should 1 : Divide by spectral norm"
+title: "Why I should 1 : Divide by spectral norm [ARTICLE IN PROGRESS DONT TAKE IT SERIOUSLY]"
 tags : ["AI","Deep Learning","Analysis","Why I should"]
 
 header:
@@ -23,7 +23,7 @@ If you work on GAN or robustness, you probably deal with **spectral norm**.
 
 * In robustness, it is also used throughout the network to make it robust.
 
-In both cases, the network weight matrices are **divided by their spectral norm**.The goal of this operation is to make lipschitz continuous the network.
+In both cases, the network weight matrices are **divided by their spectral norm**.The goal of this operation is to make **1-lipschitz** continuous the network.
 
 ### Lipschitz continuous application
 
@@ -45,17 +45,21 @@ It is natural to be interested only in the linear application. In fact it is onl
 
 It is this property that is sought in GANs or to make its network robust.
 
-A solution to make its Lipschitz network is to use the spectral norm.
+Having lipschitz continuous applications ensures that our model is robust. The **lipschitz constant** $K$ allows us to manage the "**degree of robustness**" of our application.
+
+We would like to have a stronger condition than the *$K$-lipschitz* continuity. In practice, most layers of neural networks are already $K$-lipschitzian applications for a certain $K$ . However, we would like to **make this constant K equal to 1** so that the output energy is smaller or equal to the input energy.
+
+A solution to make our layer 1-lipschitz is to use the **spectral norm**.
 
 ### Spectral norm
 
-As I said, the mathematical object that will make a network Lipschitz continuous is the spectral norm.
+As I said, the mathematical object that will make a network 1-Lipschitz continuous is the spectral norm.
 
 Let $W \in M_{m,n}(\mathbb{R})$, the spectral norm of $W$ is defined as $$\sigma(W) = 
 \sup _{\Vert x\Vert _{2} \leq 1}\Vert W x\Vert _{2} =
 \sup _{x \neq 0} \frac{\Vert W x\Vert _{2}}{\Vert x\Vert _{2}}$$
 
-To transform a linear application into a lipschitz continuous application, simply divide the matrix W of the application by the spectral norm of this matrix : 
+To transform a linear application into a 1-lipschitz continuous application, simply divide the matrix W of the application by the spectral norm of this matrix : 
 
 $$ W \leftarrow \frac{W}{\sigma(W)}$$
 #### *Proof that  $\frac{W}{\sigma(W)}$ is Lipschitz continuous*
@@ -80,7 +84,18 @@ By definition it's mean $\frac{W}{\sigma(W)}$ is 1-Lipschitz continuous. ∎
 import torch.nn as nn
 m = nn.utils.spectral_norm(nn.Linear(20, 40))
 ```
-
+Before going any further I will recall a few facts.
 
 Let $ f_1: E_1 \rightarrow E_2, \ f_2: E_2 \rightarrow E_3, \ldots , f_N :E_N \rightarrow E_{N+1} $  be all Lipschitz applications. $$\forall i \in \\{1,2,\ldots,N\\}, \ \exists K_i > 0 \ | \ \forall x,y \in E_i, \ \Vert f_i(x)-f_i(y) \Vert_{E_{i+1}} \leq K_i \Vert x_i-y_i \Vert_{E_i}$$
 $$ F=\bigotimes_{i=1}^{N} f_{i}=f_{1} \circ f_{2} \circ \cdots \circ f_{N}$$ therefore $F$ is $K$-lipschitz with $K = \prod_{n=1}^{N} K_i$
+
+#### *Proof that  $F$ is $K$-lipschitz*
+>$$
+\begin{aligned} &\Big\Vert f_{N}\Big(f_{N-1} \cdots(f_{1}(x) \ldots\Big) - f_{N}\Big(f_{N-1} \cdots(f_{1}(y) \ldots\Big)  \Big\Vert \\\\
+& \leq K_N \Big\Vert f_{N-1}\Big(f_{N-2} \cdots(f_{1}(x) \ldots\Big)  - f_{N-1}\Big(f_{N-2} \cdots(f_{1}(y) \ldots\Big)  \Big\Vert \\\\
+& \qquad \qquad \qquad \qquad \qquad \qquad \qquad \vdots \\\\
+& \leq \prod_{n=1}^{N} K_i \Vert x - y  \Vert
+\end{aligned}
+$$ 
+
+By definition it's mean that $F$ is $\Big(\prod_{n=1}^{N} K_i \Big)$-lipschitz continuous. ∎
